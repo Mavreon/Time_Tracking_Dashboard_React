@@ -1,0 +1,60 @@
+.block, .profile-box, .filter-box, .text-box{
+    display: flex;
+    flex-direction: column;
+    padding: 3.6rem 2.4rem;
+    border-radius: 2rem;
+}
+
+.block{
+    background-color: hsl(235, 46%, 20%);
+    padding: 0;
+}
+
+.profile-box{
+    
+    background-color: hsl(246, 80%, 60%);
+    gap: 3rem;
+    z-index: 1;
+}
+
+.photo-box{
+    width: 8rem;
+}
+.photo-box img{
+    width: 100%;
+    border: 0.3rem solid white;
+    border-radius: 10rem;
+}
+
+.text-box{
+    gap: 1rem;
+    margin-bottom: 4rem;
+    padding: 0;
+}
+
+.header-text{
+    font-weight: 400;
+    color: hsl(236, 100%, 87%);
+}
+
+.name{
+    font-weight: 300;
+    font-size: 3.6rem;
+    width: 70%;
+}
+
+.filter-box{
+    width: 100%;
+    gap: 2rem;
+    border-radius: 0;
+}
+.filter-box p{
+    width: 30%;
+    color: hsl(236, 100%, 87%);
+    font-size: 1.8rem;
+}
+
+.filter-box p:hover,.filter-box p:active{
+    color: white;
+    cursor: pointer;
+}
