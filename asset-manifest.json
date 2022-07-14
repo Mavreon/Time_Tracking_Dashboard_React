@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Time_Tracking_Dashboard_React/static/css/main.079d8ae7.css",
+    "main.js": "/Time_Tracking_Dashboard_React/static/js/main.6ea9fd2e.js",
+    "index.html": "/Time_Tracking_Dashboard_React/index.html",
+    "main.079d8ae7.css.map": "/Time_Tracking_Dashboard_React/static/css/main.079d8ae7.css.map",
+    "main.6ea9fd2e.js.map": "/Time_Tracking_Dashboard_React/static/js/main.6ea9fd2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.079d8ae7.css",
+    "static/js/main.6ea9fd2e.js"
+  ]
+}
