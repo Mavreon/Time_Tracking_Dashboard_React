@@ -1,5 +1,5 @@
 {
-  "homepage": "http://mavreon.github.io/Time_Tracking_Dashoboard_React",
+  "homepage": "https://mavreon.github.io/Time_Tracking_Dashboard_React",
   "name": "react-complete-guide",
   "version": "0.1.0",
   "private": true,
@@ -38,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
