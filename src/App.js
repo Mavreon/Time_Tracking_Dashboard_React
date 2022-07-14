@@ -3,12 +3,18 @@ import Container from "./UI/Container";
 import { Helmet } from "react-helmet";
 import Profile from "./components/Profile";
 import Dashboard from "./components/Dashboard";
+import workIcon from './images/icon-work.svg';
+import playIcon from './images/icon-play.svg';
+import studyIcon from './images/icon-study.svg';
+import exerciseIcon from './images/icon-exercise.svg';
+import socialIcon from './images/icon-social.svg';
+import selfcareIcon from './images/icon-self-care.svg';
 
 const data = [
   {
     "title": "Work",
     "color": "hsl(15, 100%, 70%)",
-    "icon" : "/public/images/icon-work.svg",
+    "icon" :  workIcon,
     "timeframes": {
       "daily": {
         "current": 5,
@@ -27,7 +33,7 @@ const data = [
   {
     "title": "Play",
     "color": "hsl(195, 74%, 62%)",
-    "icon" : "/public/images/icon-play.svg",
+    "icon" : playIcon,
     "timeframes": {
       "daily": {
         "current": 1,
@@ -46,7 +52,7 @@ const data = [
   {
     "title": "Study",
     "color": "hsl(348, 100%, 68%)",
-    "icon" : "/public/images/icon-study.svg",
+    "icon" : studyIcon,
     "timeframes": {
       "daily": {
         "current": 0,
@@ -65,7 +71,7 @@ const data = [
   {
     "title": "Exercise",
     "color": "hsl(145, 58%, 55%)",
-    "icon" : "/public/images/icon-exercise.svg",
+    "icon" : exerciseIcon,
     "timeframes": {
       "daily": {
         "current": 1,
@@ -84,7 +90,7 @@ const data = [
   {
     "title": "Social",
     "color": "hsl(264, 64%, 52%)",
-    "icon" : "/public/images/icon-social.svg",
+    "icon" : socialIcon,
     "timeframes": {
       "daily": {
         "current": 1,
@@ -103,7 +109,7 @@ const data = [
   {
     "title": "Self Care",
     "color": "hsl(43, 84%, 65%)",
-    "icon" : "/public/images/icon-self-care.svg",
+    "icon" : selfcareIcon,
     "timeframes": {
       "daily": {
         "current": 0,

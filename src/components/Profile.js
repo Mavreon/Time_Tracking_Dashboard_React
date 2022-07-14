@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Profile.module.css';
+import jeremy from '../images/image-jeremy.png';
 
 const Profile = (props)=>{
     const OnClickDaily=()=>{
@@ -16,7 +17,7 @@ const Profile = (props)=>{
         <div className={styles["block"]}>
             <div className={styles["profile-box"]}>
                 <div className={styles["photo-box"]}>
-                    <img src="./images/image-jeremy.png" alt="Jeremy Profile Photo"/>
+                    <img src= {jeremy} alt="Jeremy Profile"/>
                 </div>
                 <div className={styles["text-box"]}>
                     <span className={styles["header-text"]}>Report for</span>

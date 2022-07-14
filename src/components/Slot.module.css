@@ -50,12 +50,12 @@
 
 @media (max-width: 37.5rem) {
     .card{
-        padding-top: 3.2rem;
+        padding-top: 4rem;
         background-position-y: -28%;
         width: 100%;
     }
     .block{
-        padding: 2.4rem;
+        padding: 3rem;
     }
     .label{
         font-size: 1.6rem;
