@@ -1,6 +1,6 @@
 .card{
-    /* background-color: hsl(15, 100%, 70%); */
-    /* background-image: url('/public/images/icon-work.svg'); */
+    background-color: hsl(15, 100%, 70%);
+    background-image: url('/public/images/icon-work.svg');
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: -2%;

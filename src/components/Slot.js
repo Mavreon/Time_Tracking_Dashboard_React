@@ -4,10 +4,10 @@ import styles from './Slot.module.css';
 
 
 const Slot = (props)=>{
-    // console.log(props.object);
     let filter = props.filter;
     let selected = {};
     let previousText = '';
+
     if(filter ==='daily'){
         selected = props.object.timeframes.daily;
         previousText = 'Yesterday';
@@ -22,7 +22,7 @@ const Slot = (props)=>{
     }
 
     return(
-        <div className={styles["card"]} style={{backgroundColor: props.object.color, backgroundImage: `url(${props.object.icon})`}}>
+        <div className={styles["card"]} style={{ backgroundColor: props.object.color, backgroundImage: `url(${props.object.icon})` }}>
             <div className={styles["block"]}>
                 <div className={styles["header"]}>
                     <p className={styles["label"]}>{props.object.title}</p>

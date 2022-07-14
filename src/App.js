@@ -8,7 +8,7 @@ const data = [
   {
     "title": "Work",
     "color": "hsl(15, 100%, 70%)",
-    "icon" : "/images/icon-work.svg",
+    "icon" : "/public/images/icon-work.svg",
     "timeframes": {
       "daily": {
         "current": 5,
@@ -27,7 +27,7 @@ const data = [
   {
     "title": "Play",
     "color": "hsl(195, 74%, 62%)",
-    "icon" : "/images/icon-play.svg",
+    "icon" : "/public/images/icon-play.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -46,7 +46,7 @@ const data = [
   {
     "title": "Study",
     "color": "hsl(348, 100%, 68%)",
-    "icon" : "/images/icon-study.svg",
+    "icon" : "/public/images/icon-study.svg",
     "timeframes": {
       "daily": {
         "current": 0,
@@ -65,7 +65,7 @@ const data = [
   {
     "title": "Exercise",
     "color": "hsl(145, 58%, 55%)",
-    "icon" : "/images/icon-exercise.svg",
+    "icon" : "/public/images/icon-exercise.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -84,7 +84,7 @@ const data = [
   {
     "title": "Social",
     "color": "hsl(264, 64%, 52%)",
-    "icon" : "/images/icon-social.svg",
+    "icon" : "/public/images/icon-social.svg",
     "timeframes": {
       "daily": {
         "current": 1,
@@ -103,7 +103,7 @@ const data = [
   {
     "title": "Self Care",
     "color": "hsl(43, 84%, 65%)",
-    "icon" : "/images/icon-self-care.svg",
+    "icon" : "/public/images/icon-self-care.svg",
     "timeframes": {
       "daily": {
         "current": 0,

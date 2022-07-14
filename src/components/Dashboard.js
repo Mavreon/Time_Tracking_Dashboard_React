@@ -5,14 +5,11 @@ import Slot from "./Slot";
 const Dashboard = (props)=>{
     return(
         <div className={styles["wrapper"]}>
-            {/* {console.log(props.data)} */}
-            {props.data.map(object => <Slot key={object.title} object={object} filter = {props.filter}/>)}
-            {/* <Slot></Slot>
-            <Slot></Slot>
-            <Slot></Slot>
-            <Slot></Slot>
-            <Slot></Slot>
-            <Slot></Slot> */}
+            {
+                props.data.map(
+                    object => <Slot key={object.title} object={object} filter = {props.filter}/>
+                )
+            }
         </div>
     );
 };
