@@ -12,7 +12,6 @@
 }
 
 .profile-box{
-    
     background-color: hsl(246, 80%, 60%);
     gap: 3rem;
     z-index: 1;
@@ -58,4 +57,31 @@
 .filter-box p:hover,.filter-box p:active{
     color: white;
     cursor: pointer;
+}
+
+@media (max-width: 37.5rem) {
+    .profile-box{
+        flex-direction: row;
+        gap: 2rem;
+        padding: 2.4rem;
+    }
+    .photo-box{
+        width: 10rem;
+    }
+    .text-box{
+        margin:0;
+        width: 100%;
+        border-radius: 0;
+        justify-content: center;
+    }
+    .name{
+        width: 100%;
+        font-size: 2.4rem;
+    }
+    .filter-box{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+        padding: 2.4rem;
+    }
 }
