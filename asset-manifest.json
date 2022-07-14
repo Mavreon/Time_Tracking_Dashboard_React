@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Time_Tracking_Dashboard_React/static/css/main.079d8ae7.css",
-    "main.js": "/Time_Tracking_Dashboard_React/static/js/main.6ea9fd2e.js",
+    "main.css": "/Time_Tracking_Dashboard_React/static/css/main.6705e984.css",
+    "main.js": "/Time_Tracking_Dashboard_React/static/js/main.d0c40395.js",
     "index.html": "/Time_Tracking_Dashboard_React/index.html",
-    "main.079d8ae7.css.map": "/Time_Tracking_Dashboard_React/static/css/main.079d8ae7.css.map",
-    "main.6ea9fd2e.js.map": "/Time_Tracking_Dashboard_React/static/js/main.6ea9fd2e.js.map"
+    "static/media/icon-work.svg": "/Time_Tracking_Dashboard_React/static/media/icon-work.a3f124e593ab45ba795f.svg",
+    "main.6705e984.css.map": "/Time_Tracking_Dashboard_React/static/css/main.6705e984.css.map",
+    "main.d0c40395.js.map": "/Time_Tracking_Dashboard_React/static/js/main.d0c40395.js.map"
   },
   "entrypoints": [
-    "static/css/main.079d8ae7.css",
-    "static/js/main.6ea9fd2e.js"
+    "static/css/main.6705e984.css",
+    "static/js/main.d0c40395.js"
   ]
 }
