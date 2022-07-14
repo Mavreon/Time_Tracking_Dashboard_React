@@ -7,18 +7,18 @@ const Slot = (props)=>{
     // console.log(props.object);
     let filter = props.filter;
     let selected = {};
-    let previous = '';
+    let previousText = '';
     if(filter ==='daily'){
         selected = props.object.timeframes.daily;
-        previous = 'Yesterday';
+        previousText = 'Yesterday';
     }
     else if(filter === 'weekly'){
         selected = props.object.timeframes.weekly;
-        previous = 'Last Week';
+        previousText = 'Last Week';
     }
     else{
         selected = props.object.timeframes.monthly;
-        previous = 'Last Month';
+        previousText = 'Last Month';
     }
 
     return(
@@ -32,7 +32,7 @@ const Slot = (props)=>{
                     <h2 className={styles["time-spent-current"]}>
                         {`${selected.current}hrs`}
                     </h2>
-                    <span className={styles["time-spent-previous"]}>{`${previous} - ${selected.previous}hrs`}</span>
+                    <span className={styles["time-spent-previous"]}>{`${previousText} - ${selected.previous}hrs`}</span>
                 </div>
             </div>
         </div>
