@@ -1,6 +1,6 @@
 .card{
-    background-color: hsl(15, 100%, 70%);
-    background-image: url('/public/images/icon-work.svg');
+    /* background-color: hsl(15, 100%, 70%); */
+    /* background-image: url('/public/images/icon-work.svg'); */
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: -2%;
@@ -9,6 +9,7 @@
     overflow: hidden;
     width: 28rem;
 }
+
 .block{
     width: 100%;
     display: flex;
@@ -18,9 +19,11 @@
     background-color: hsl(235, 46%, 20%);
     border-radius: 2rem;
 }
+
 .block:hover{
     background-color: hsl(246, 80%, 60%);
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -39,6 +42,7 @@
     font-size: 5.6rem;
     font-weight: 300;
 }
+
 .time-spent-previous{
     color:hsl(236, 100%, 87%);
     font-size: 1.4rem;
